@@ -1,5 +1,3 @@
-// 1 3 2 3 4 2 5 6 2 7 8 0 0 0 0 1 9 0
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -90,26 +88,17 @@ void printLevelWise(TreeNode <int>* root){
 }
 
 
-//3 Count Total Number of Nodes
+//3 PREORDER TRAVERSAL
 
-int MaxNode(TreeNode <int>* root){
-    // root is one node , so initialize it with 1 instead of 0
-    int ans=INT_MIN;
-    if(root->data>ans){
-        ans=root->data;
-    }
-
+void postorder(TreeNode <int>* root){
+    if(root==NULL) return ;
+   
     for(int i=0;i<root->children.size();i++){
-        int smallans=MaxNode(root->children[i]);
-        if(smallans>ans) ans=smallans;
-
+        postorder(root->children[i]);
     }
-
-
-
-    return ans;
+    cout<<root->data<<" ";
+    
 }
-
 
 int main(){
    
@@ -117,30 +106,14 @@ int main(){
 
     TreeNode <int> * root=takeInputLevelWise();
     printLevelWise(root);
-    cout<<"Maximum among all Nodes:"<<MaxNode(root)<<endl;
+    cout<<"Postorder printing :";
+    postorder(root);
 
 
     return 0;
 }
 
-
 /*
-Enter data:
-1
-Enter Number of children of 1:3
-Enter 0th child of 1=2
-Enter 1th child of 1=3
-Enter 2th child of 1=4
-Enter Number of children of 2:0
-Enter Number of children of 3:0
-Enter Number of children of 4:0
-1:2,3,4,
-2:
-3:
-4:
-Maximum among all Nodes:4
-
-
 Enter data:
 1
 Enter Number of children of 1:3
@@ -169,7 +142,6 @@ Enter Number of children of 9:0
 7:
 8:9,
 9:
-Maximum among all Nodes:9
-
+Postorder printing :5 6 2 7 9 8 3 4 1
 
 */
