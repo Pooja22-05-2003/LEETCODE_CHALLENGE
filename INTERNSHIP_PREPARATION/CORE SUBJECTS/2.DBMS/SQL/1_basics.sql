@@ -1,0 +1,14 @@
+CREATE DATABASE mydata;
+
+USE mydata;
+
+CREATE TABLE students(
+id INT PRIMARY KEY,
+name VARCHAR(255)
+);
+
+INSERT INTO students VALUES(1,'POOJA');
+INSERT INTO students VALUES (2,'SONU');
+SELECT * FROM students;
+
+DROP DATABASE IF EXISTS mydata;

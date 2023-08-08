@@ -1,0 +1,13 @@
+Love Babbar One shot playlist :
+
+Q1. 
+Q2. What is Referential constraints [4:39:07 / 11:42:05]
+Q3. What is ON Delete Cascade . [4:45:19 / 11:42:05]
+Q4. Can foreign key have NULL value ? [4:47:04 / 11:42:05]
+Q5. Assessment -1hr (MCQ, Coding questions)
+
+** SQL FAMOUS INTERVIEW QUESTIONS:
+video link : https://www.youtube.com/watch?v=D_wNQR3LeeM&t=1118s
+
+Q6. Can we use select keyword without using FROM clause ?[44:18 / 3:52:20]
+Ans- Yes, using DUAL TABLE

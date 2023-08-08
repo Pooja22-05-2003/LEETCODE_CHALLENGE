@@ -1,0 +1,5 @@
+gfg link[Top 100 questions] : https://www.geeksforgeeks.org/operating-systems-interview-questions/
+
+
+Interview Bit [Top 40 questions]:
+https://www.interviewbit.com/operating-system-interview-questions/#spooling-in-os

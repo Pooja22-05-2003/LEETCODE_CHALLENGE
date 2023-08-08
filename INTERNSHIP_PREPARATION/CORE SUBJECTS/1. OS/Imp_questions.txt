@@ -1,0 +1,51 @@
+1. Explain starting 4 types of OS 
+
+2. Difference between Multitasking and Multiprogramming OS.
+
+3. Difference btw Multitaksing and Multiprocessign OS.
+
+4. What are the works of Kernel?
+-> Process Management
+-> Memory Management
+-> File Management
+-> I/O Management
+(3 imp work) * Spooling (2 diff jobs ke beech mei data ko kisi area mei spool[save] krke rakh lete hai. * Buffering *Caching 
+
+5. User mode and kernel mode mei processes chal rahi hoti hai , but inme apas mei communication kaise hota hai ?
+-> Iska ek method hota hai , jo OS hi provide krta hai , Os ka process management wala part provide krta hai , IPC(Inter process Communication).
+
+-> If 2 process lets say want to inetract , then there are methods 
+a. shared memory [ a memory in which P1 can write and P2 can read and vice versa also true.
+b. Message Passing [Directly creating channel btw P1 and P2]
+
+
+Q6. VIMP How do apps interact with kernel?
+->using  [System CALLS]
+
+Q7. Lec-7
+32 bit vs 64 bit OS
+
+Q8 Degree of Multiprogramming kon handle kar raha hai?[Lec-10 Process states]
+-> Long term schedular (4:26:24)
+
+Q9 4 important topics 
+1. Swapping 
+2. Context switching 
+3. Orphan Process
+4. Zombie processes
+
+Q10 Differences between orphan processes and Zombie Processes.
+
+Q11 In CPU scheduling algorithm , FCFS- Convey effect( Interview mei directly question puch liya jata hai , that is what is convoy effect.
+
+Q12 Biggest Drawback in pre-emptive and Non-Pre-emptive scheduling algo - INDEFINITE WAITING [Extreme Starvation] .
+-> Solution to indefinite waiting - AGING(Gradually increasing  the priority of lowest priority jobs).
+
+
+Q13. In Round Robin Algorithm , overhead is decided by what factor?
+-> Time Quantum [ If time quantum will high , then overheads will be low, and if time quantum is low , then overheads will be high.]
+
+Q14 In Multilevel feedback queue scheduling algorithm , we move process having low burst time in Lower queues continuously , So it can lead to starvation.
+-> To remove this starvation problem in this algo , we use AGING [Jo process lower queue mei jati rahengi , usko mai ek time ke baad , jo lower priority process hongi , unki ek time ke baad priority hum badhate rahenge taki vo starvation mei na jaaye .
+
+
