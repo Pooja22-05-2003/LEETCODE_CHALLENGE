@@ -11,3 +11,7 @@ video link : https://www.youtube.com/watch?v=D_wNQR3LeeM&t=1118s
 
 Q6. Can we use select keyword without using FROM clause ?[44:18 / 3:52:20]
 Ans- Yes, using DUAL TABLE
+
+Q7. Can Foriegn key have null value ?
+Ans- YEs, they can have null value ,when we apply the conept of DELETE CONSTRAINTS (On Delete Set Null).[2:03:33 / 3:52:20]
+
