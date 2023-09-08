@@ -1,5 +1,12 @@
-// Tc=O(N2)
-// SC=O(1)
+// Case	Time Complexity
+// Best Case
+// O(n)
+// Average Case
+// O(n2)
+// Worst Case
+// O(n2)
+
+//  SC=O(1)
 #include <iostream>
 #include <vector>
 
